@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { decrement, increaseByAmount, increment } from './redux/counter'
+import "./App.css"
 
 function App() {
 
